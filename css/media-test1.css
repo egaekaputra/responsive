@@ -1,0 +1,66 @@
+@media (max-width: 575.98px) { 
+	.header{
+		height: 15vh;
+	}
+	.register-desktop{
+		display: block !important;
+	}
+	.register-mobile{
+		display: block !important;
+		font-size: 10px !important;
+		margin-left: 5px;
+	}
+	img.register-mobile{
+		margin-left: 18vh;
+	}
+	.login-desktop{
+		display: none !important;
+	}
+	.slide-title{
+		left: 20%;	
+	}
+	.footer{
+		width: 100%;
+	}
+	.text-vertical{
+		bottom: 13%;
+		font-size: 12px;
+	}
+	.slide-title{
+		top: 26vh;
+	}
+	.slide-title h2{
+		left: 32%;
+		font-size: 20px !important;
+	}
+	.slider-tasks{
+		width: 200px;
+		display: block;
+		position: absolute !important;
+		left: 25%;
+		top:42vh;
+	}
+	.slider-task-small {
+		display: none !important;
+	}
+	img.arrow-prev{
+		left: 78%;
+		height: 20px;	
+	}
+	img.arrow-next{
+		left: 88%;
+		height: 20px;
+	}
+	
+}
+@media (max-width: 767.98px) {
+	.slide-title h2{
+		font-size: 22px !important;
+	}
+	.slider-tasks{
+		width: 200px !important;
+	}
+	h5.card-size{
+		font-size: 14px ;
+	}
+}

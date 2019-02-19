@@ -1,0 +1,124 @@
+.header{
+	height: 7vh;
+	position: absolute;
+	top: 0px;
+	z-index: 2;
+}
+.nav-link{
+	padding-left: 8px;
+}
+.nav-padding{
+	padding :8px !important;
+}
+.register-desktop{
+	width: 16em;
+	position: absolute;
+	top: 10px;
+	padding-left: 40px;
+	right: 10px;
+	z-index: 3;
+}
+.register-mobile{
+	display: none !important;
+}
+.login-desktop{
+	display: block;
+}
+a.active{
+	color:red !important;
+    border-bottom: red solid;
+}
+.slider{
+	background: coral;
+	height: 100%;
+	position: relative;
+}
+.arrow-slider{
+	position: absolute;
+	bottom: 2%;
+	z-index: 4;
+	height: 30px;
+	cursor: pointer;
+} 
+img.arrow-prev{
+	left:15%;	
+}
+img.arrow-next{
+	left:20%;
+}
+img.slide-title{
+	position: absolute;
+	top: 20%;
+	left: 17%;
+}
+.slide-bg{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+.slide-title{
+	position: absolute;
+	top: 200px;
+	left: 10%
+}
+.slide-title h2{
+	width: 10em;
+	margin-left: 11%;
+}
+.slider-tasks{
+	width: 355px;
+	display: block;
+	position: absolute !important;
+	top:200px;
+	left: 60%;
+	color:#000;
+}
+.slide1{  
+  position: relative;
+	height: 100vh !important;
+	width: 100%;
+}
+.slide2{
+  position: relative;
+	height: 100vh !important;
+	width: 100%;
+}
+.slide3{
+	position: relative;
+	height: 100vh !important;
+	width: 100%;
+}
+.slider-image{
+	display: inline-block;
+	height: 100vh !important;
+	width: 100hv !important;
+}
+
+.watching{
+	position: absolute;
+	bottom: 15%;
+	left: 17%;
+}
+.slider-task-small{
+	position: absolute;
+	bottom: 15%;
+	right:7%;
+	color: #000;
+}
+
+.text-vertical{
+	position: absolute;
+	right: 0px;
+	bottom: 7%;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+  	-webkit-transform: rotate(-90deg); /* Safari 3-8 */
+  	transform: rotate(-90deg);
+}
+.footer{
+	background: brown;
+	color: #ffffff;
+	width: 25%;
+	height: 6vh;
+	position: absolute;
+	bottom: 0px;
+}
